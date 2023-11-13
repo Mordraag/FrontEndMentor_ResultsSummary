@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(223, 218, 218, 0.575);
+}
+.container {
+    display: flex;
+    width: 40%;
+    height: 350px;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+.left {
+    border-radius: 30px;
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+h1 {
+    font-size: 18px;
+}
+.bignum {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    color: white;
+}
+.result {
+    color: hsl(241, 100%, 89%);
+}
+.circle {
+    background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    
+    padding: 6px;
+    width: 125px;
+}
+p {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.numbers{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+.summary {
+    color:hsl(224, 30%, 27%);
+    position: relative;
+    bottom: 6px;
+}
+.stats {
+    color: hsla(224, 30%, 27%, 0.5);
+    float: left;
+}
+a {
+    text-decoration: none;
+    margin-left: -30px;
+    cursor:inherit;
+}
+.red {
+    color: hsl(0, 100%, 67%);
+}
+.yellow {
+    color: hsl(39, 100%, 56%);
+}
+.green {
+    color: hsl(166, 100%, 37%);
+}
+.blue {
+    color: hsl(234, 85%, 45%);
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.05);
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+}
